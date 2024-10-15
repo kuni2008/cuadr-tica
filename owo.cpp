@@ -2,11 +2,11 @@
 using namespace std;
 #define ll long long
 int main() {
-    /// calcular las raices x1 y x2 de una ecuaci�n cuadr�tica
-    /// declaracion de variables
+    /// empezamos colocando los valores de a , b , y c
+    /// Se aplica la fórmula cuadrática directamente a la ecuación.
+    /// x = (-b ± √(b² - 4ac)) / (2a)
     double a, b, c; cin >> a >> b >> c;
     double d=pow(b,2)-(4*a*c);
-    /// ciclos ifs
     if(d<0)
     {
         cout<<"NA";
